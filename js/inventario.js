@@ -22,7 +22,7 @@ async function getCategories() {
                 ${Descripcion}
             </td>
             <td>
-                <img src"${Imagen}" width="100px" class="cuenta">
+                <img src="${Imagen}" width="100px" class="cuenta">
             </td>
             <td>
             <button class="btn color3" >Details</button>
@@ -31,7 +31,7 @@ async function getCategories() {
             <button class="btn color2" >Edit</button>
             </td>
             <td>
-            <button class="btn color" >Delete</button>
+            <button class="btn color5" >Delete</button>
             </td>
         `;
         container.appendChild(row);
